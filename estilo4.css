@@ -1,0 +1,89 @@
+/* section{
+    background-image: url(montania.jpg);
+    height: 800px;
+} */
+
+/* Esto es para una sola imagen */
+/* section{
+    background: linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)), url(montania.jpg);
+    height: 800px;
+    background-repeat: no-repeat; /* esto es para que la imagen no se repita si se va la resolucion de la pantalla*/
+    /*background-position: bottom center;/*para ver q partede la montania q se vea  */
+  /* } */
+
+/* esto es para dos imagenes  */
+/* section{
+    background: linear-gradient(0deg,rgba(255,0,150,0.3),rgba(255,0,150,0.3)), url(montania.jpg), url(imagen2.jpg);
+    height: 800px;
+    background-repeat: no-repeat; /* esto es para que la imagen no se repita si se va la resolucion de la pantalla*/
+    /*background-position: bottom center, left top;/*para ver q partede la montania q se vea  */
+    /*background-size: 300px 100px, 100px 500px; /*esto generalmente mo se usa*/
+/*} */
+
+/* .miestilo{
+    font-size: 250px;
+    color: blue;
+    text-shadow: 20px 20px 5px red ;
+    background-color: black;
+    padding: 50px;
+} */
+
+/* .padre{
+    background-color: aqua;
+    display: flex;
+   /* flex-wrap: nowrap; este valor viene por defecto con el display flex*/
+    /*flex-wrap: wrap; /*esta priopieda me hace que si las cajas hijas no entran en la caja padre la pone a la cajas por denbajo*/
+    /* flex-direction: row-reverse;
+    flex-direction: column; */
+   /* width: 900px;
+    height: 800px;
+    /*align-items: flex-start; /*esta priopiedad viene por defecto con el dispplay: flex*/
+    /*align-items: center; /*esto funciona se el padre tiene altura o lo quese denomina el ejey*/
+    /*justify-content: flex-end; /*es para el eje x, le que viene por defecto es elflex-start */
+    /*justify-content: space-around;
+    justify-content: space-between; /*hay unaqe se llama everthing*/
+/*
+}
+
+.hijo{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    border: 1px solid black;
+} */
+
+.trescosas{
+    
+}
+
+.trescolumna{
+    display: flex;
+}
+
+.imagenytexto{
+    background-color: violet;
+    display: flex;
+    align-items: center;
+    height: 1000px;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.uno{
+    background-color: red;
+}
+
+.dos{
+    background-color: aquamarine;
+}
+
+header{
+    background-color: green;
+}
+
+footer{
+    background-color: blue;
+}
